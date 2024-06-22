@@ -1,19 +1,19 @@
 document.getElementById("submit").addEventListener("click", function () {
   const options = document.getElementsByName("answer");
-  let selectedAnswer;
+  let submittedAnswer;
   for (const option of options) {
     if (option.checked) {
-      selectedAnswer = option.value;
+      submittedAnswer = option.value;
       break;
     }
   }
 
-  const resultElement = document.getElementById("output");
+  const outputElement = document.getElementById("output");
   if (selectedAnswer === "Delhi") {
-    resultElement.innerText = "Correct! The capital of India is Delhi.";
-    resultElement.style.color = "blue";
+    outputElement.innerText = "Correct! The capital of India is Delhi.";
+    outputElement.style.color = "blue";
   } else {
-    resultElement.innerText = "Incorrect. Try again!";
-    resultElement.style.color = "red";
+    outputElement.innerText = "Incorrect. Try again!";
+    outputElement.style.color = "red";
   }
 });
