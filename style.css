@@ -1,0 +1,16 @@
+#main {
+  max-width: 500px;
+  margin: auto;
+  padding: 25px;
+  border: 2px solid #888888;
+  border-radius: 5%;
+}
+.question {
+  margin-bottom: 15px;
+}
+.options {
+  margin-bottom: 15px;
+}
+#output {
+  margin-top: 15px;
+}
