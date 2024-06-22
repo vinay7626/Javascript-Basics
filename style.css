@@ -15,3 +15,17 @@
 #output {
   margin-top: 15px;
 }
+#submit{
+  padding: 5px;
+  font-weight: 700;
+  color: green;
+  border: 2px solid darkgreen;
+  border-radius: 3px;
+  background-color: lightgreen;
+}
+#submit:hover{
+  background-color: lightblue;
+  border: 4px solid blue;
+  color: blue;
+  cursor: pointer;
+}
