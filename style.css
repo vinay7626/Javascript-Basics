@@ -3,10 +3,11 @@
   margin: auto;
   padding: 25px;
   border: 2px solid #888888;
-  border-radius: 5%;
+  border-radius: 20px;
 }
 .question {
   margin-bottom: 15px;
+  margin-left: 10px;
 }
 .options {
   margin-bottom: 15px;
